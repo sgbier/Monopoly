@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="008e67f3-0b20-40d0-8d71-961d40e8a220" name="sgbier@IWS-W7HYBOJZRNW 2017-08-10 12:15:41" runUser="INTERNAL\sgbier" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4020f19f-e6bb-483b-9794-4586090393e2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="sgbier_IWS-W7HYBOJZRNW 2017-08-10 12_15_41">
+      <DeploymentItem filename="C:\dotNet\Monopoly\Monopoly\Monopoly\bin\Debug\Monopoly.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-08-10T12:15:41.9712585-04:00" queuing="2017-08-10T12:15:42.0352649-04:00" start="2017-08-10T12:15:42.0392653-04:00" finish="2017-08-10T12:15:42.2652879-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LandingOnIncomeTaxTest3" storage="c:\dotnet\monopoly\monopoly\monopolytest\bin\debug\monopolytest.dll" id="4600374e-df17-99e0-71df-d3274a56bad4">
+      <Execution id="87d218e0-5c58-4bf5-bb04-f6ef41017afe" />
+      <TestMethod codeBase="C:/dotNet/Monopoly/Monopoly/MonopolyTest/bin/Debug/MonopolyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MonopolyTest.LandingOnIncomeTaxTest, MonopolyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LandingOnIncomeTaxTest3" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4600374e-df17-99e0-71df-d3274a56bad4" executionId="87d218e0-5c58-4bf5-bb04-f6ef41017afe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="87d218e0-5c58-4bf5-bb04-f6ef41017afe" testId="4600374e-df17-99e0-71df-d3274a56bad4" testName="LandingOnIncomeTaxTest3" computerName="IWS-W7HYBOJZRNW" duration="00:00:00.0129173" startTime="2017-08-10T12:15:42.0462660-04:00" endTime="2017-08-10T12:15:42.2502864-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87d218e0-5c58-4bf5-bb04-f6ef41017afe">
+    </UnitTestResult>
+  </Results>
+</TestRun>

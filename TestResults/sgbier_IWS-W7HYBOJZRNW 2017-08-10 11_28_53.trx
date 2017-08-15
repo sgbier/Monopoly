@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="43259612-b6b0-4f91-a8af-3286f834e31c" name="sgbier@IWS-W7HYBOJZRNW 2017-08-10 11:28:53" runUser="INTERNAL\sgbier" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4020f19f-e6bb-483b-9794-4586090393e2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\dotNet\Monopoly\Monopoly\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="sgbier_IWS-W7HYBOJZRNW 2017-08-10 11_28_53">
+      <DeploymentItem filename="C:\dotNet\Monopoly\Monopoly\Monopoly\bin\Debug\Monopoly.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-08-10T11:28:53.3224217-04:00" queuing="2017-08-10T11:28:53.3684263-04:00" start="2017-08-10T11:28:53.3724267-04:00" finish="2017-08-10T11:28:53.6734568-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GamePlayerTest3" storage="c:\dotnet\monopoly\monopoly\monopolytest\bin\debug\monopolytest.dll" id="7a5d6771-74fe-3149-0ccd-32414e211fcf">
+      <Execution id="4ae43424-b682-4ffe-b1ac-c18c14fc046a" />
+      <TestMethod codeBase="C:/dotNet/Monopoly/Monopoly/MonopolyTest/bin/Debug/MonopolyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MonopolyTest.GamePlayerTest, MonopolyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GamePlayerTest3" />
+    </UnitTest>
+    <UnitTest name="PlayerMovementTest1" storage="c:\dotnet\monopoly\monopoly\monopolytest\bin\debug\monopolytest.dll" id="beb7dd20-1bda-12bc-d656-5e9f8f962b06">
+      <Execution id="a0799e1f-c580-4ca6-8b1b-03ee881db63d" />
+      <TestMethod codeBase="C:/dotNet/Monopoly/Monopoly/MonopolyTest/bin/Debug/MonopolyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MonopolyTest.PlayerMovementTest, MonopolyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PlayerMovementTest1" />
+    </UnitTest>
+    <UnitTest name="GameRoundTest2" storage="c:\dotnet\monopoly\monopoly\monopolytest\bin\debug\monopolytest.dll" id="9752f9ac-e914-3983-36b8-e1735950fad7">
+      <Execution id="55d605d4-7494-47ad-bf0a-42f09b397663" />
+      <TestMethod codeBase="C:/dotNet/Monopoly/Monopoly/MonopolyTest/bin/Debug/MonopolyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MonopolyTest.GameRoundTest, MonopolyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GameRoundTest2" />
+    </UnitTest>
+    <UnitTest name="GameRoundTest1" storage="c:\dotnet\monopoly\monopoly\monopolytest\bin\debug\monopolytest.dll" id="b6daf6a3-b00b-158c-66e8-48d5a7a10408">
+      <Execution id="7b8ab493-2a97-4195-b74a-80c6208df99b" />
+      <TestMethod codeBase="C:/dotNet/Monopoly/Monopoly/MonopolyTest/bin/Debug/MonopolyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MonopolyTest.GameRoundTest, MonopolyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GameRoundTest1" />
+    </UnitTest>
+    <UnitTest name="LandingOnGoTest2" storage="c:\dotnet\monopoly\monopoly\monopolytest\bin\debug\monopolytest.dll" id="02413075-4bc8-7cc9-57fd-08bb459abeab">
+      <Execution id="56380a5a-0f7e-4265-8080-544f1df8915d" />
+      <TestMethod codeBase="C:/dotNet/Monopoly/Monopoly/MonopolyTest/bin/Debug/MonopolyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MonopolyTest.LandingOnGoTest, MonopolyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LandingOnGoTest2" />
+    </UnitTest>
+    <UnitTest name="PlayerMovementTest2" storage="c:\dotnet\monopoly\monopoly\monopolytest\bin\debug\monopolytest.dll" id="0e77d6bb-fb3d-1b49-b06b-8c2122ca3fd9">
+      <Execution id="4228c57f-894a-4471-ac46-520d420099fd" />
+      <TestMethod codeBase="C:/dotNet/Monopoly/Monopoly/MonopolyTest/bin/Debug/MonopolyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MonopolyTest.PlayerMovementTest, MonopolyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PlayerMovementTest2" />
+    </UnitTest>
+    <UnitTest name="GameRoundTest4" storage="c:\dotnet\monopoly\monopoly\monopolytest\bin\debug\monopolytest.dll" id="dabdf125-28d9-38b0-776e-916c4541cb98">
+      <Execution id="b1592bab-a4d6-442c-bdba-6216c6f4059c" />
+      <TestMethod codeBase="C:/dotNet/Monopoly/Monopoly/MonopolyTest/bin/Debug/MonopolyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MonopolyTest.GameRoundTest, MonopolyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GameRoundTest4" />
+    </UnitTest>
+    <UnitTest name="LandingOnGoTest1" storage="c:\dotnet\monopoly\monopoly\monopolytest\bin\debug\monopolytest.dll" id="7796b712-fe60-468f-2104-8ee6b2a50fd9">
+      <Execution id="c4218152-d4d2-454a-8358-cfc901076381" />
+      <TestMethod codeBase="C:/dotNet/Monopoly/Monopoly/MonopolyTest/bin/Debug/MonopolyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MonopolyTest.LandingOnGoTest, MonopolyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LandingOnGoTest1" />
+    </UnitTest>
+    <UnitTest name="GamePlayerTest2" storage="c:\dotnet\monopoly\monopoly\monopolytest\bin\debug\monopolytest.dll" id="7f40909b-f243-42ff-71ac-e07d8c2cc9fb">
+      <Execution id="5c377792-e5d1-4837-b6d3-6b7655dc4afd" />
+      <TestMethod codeBase="C:/dotNet/Monopoly/Monopoly/MonopolyTest/bin/Debug/MonopolyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MonopolyTest.GamePlayerTest, MonopolyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GamePlayerTest2" />
+    </UnitTest>
+    <UnitTest name="GamePlayerTest1" storage="c:\dotnet\monopoly\monopoly\monopolytest\bin\debug\monopolytest.dll" id="881e6fcc-8424-f9ba-9bef-cb075e569126">
+      <Execution id="b9db80c2-1ae5-48f5-96e9-95add3d00b10" />
+      <TestMethod codeBase="C:/dotNet/Monopoly/Monopoly/MonopolyTest/bin/Debug/MonopolyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MonopolyTest.GamePlayerTest, MonopolyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GamePlayerTest1" />
+    </UnitTest>
+    <UnitTest name="GameRoundTest3" storage="c:\dotnet\monopoly\monopoly\monopolytest\bin\debug\monopolytest.dll" id="47d15f6e-a592-ef57-100a-8438d946ef8e">
+      <Execution id="4f89537a-57b3-47da-95dc-ea9e2796eb75" />
+      <TestMethod codeBase="C:/dotNet/Monopoly/Monopoly/MonopolyTest/bin/Debug/MonopolyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MonopolyTest.GameRoundTest, MonopolyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GameRoundTest3" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="02413075-4bc8-7cc9-57fd-08bb459abeab" executionId="56380a5a-0f7e-4265-8080-544f1df8915d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e77d6bb-fb3d-1b49-b06b-8c2122ca3fd9" executionId="4228c57f-894a-4471-ac46-520d420099fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47d15f6e-a592-ef57-100a-8438d946ef8e" executionId="4f89537a-57b3-47da-95dc-ea9e2796eb75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7796b712-fe60-468f-2104-8ee6b2a50fd9" executionId="c4218152-d4d2-454a-8358-cfc901076381" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a5d6771-74fe-3149-0ccd-32414e211fcf" executionId="4ae43424-b682-4ffe-b1ac-c18c14fc046a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f40909b-f243-42ff-71ac-e07d8c2cc9fb" executionId="5c377792-e5d1-4837-b6d3-6b7655dc4afd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="881e6fcc-8424-f9ba-9bef-cb075e569126" executionId="b9db80c2-1ae5-48f5-96e9-95add3d00b10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9752f9ac-e914-3983-36b8-e1735950fad7" executionId="55d605d4-7494-47ad-bf0a-42f09b397663" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6daf6a3-b00b-158c-66e8-48d5a7a10408" executionId="7b8ab493-2a97-4195-b74a-80c6208df99b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="beb7dd20-1bda-12bc-d656-5e9f8f962b06" executionId="a0799e1f-c580-4ca6-8b1b-03ee881db63d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dabdf125-28d9-38b0-776e-916c4541cb98" executionId="b1592bab-a4d6-442c-bdba-6216c6f4059c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="56380a5a-0f7e-4265-8080-544f1df8915d" testId="02413075-4bc8-7cc9-57fd-08bb459abeab" testName="LandingOnGoTest2" computerName="IWS-W7HYBOJZRNW" duration="00:00:00.0137498" startTime="2017-08-10T11:28:53.3794274-04:00" endTime="2017-08-10T11:28:53.5934488-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56380a5a-0f7e-4265-8080-544f1df8915d">
+    </UnitTestResult>
+    <UnitTestResult executionId="4228c57f-894a-4471-ac46-520d420099fd" testId="0e77d6bb-fb3d-1b49-b06b-8c2122ca3fd9" testName="PlayerMovementTest2" computerName="IWS-W7HYBOJZRNW" duration="00:00:00.0002281" startTime="2017-08-10T11:28:53.5984493-04:00" endTime="2017-08-10T11:28:53.6004495-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4228c57f-894a-4471-ac46-520d420099fd">
+    </UnitTestResult>
+    <UnitTestResult executionId="4f89537a-57b3-47da-95dc-ea9e2796eb75" testId="47d15f6e-a592-ef57-100a-8438d946ef8e" testName="GameRoundTest3" computerName="IWS-W7HYBOJZRNW" duration="00:00:00.0015032" startTime="2017-08-10T11:28:53.6044499-04:00" endTime="2017-08-10T11:28:53.6074502-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f89537a-57b3-47da-95dc-ea9e2796eb75">
+    </UnitTestResult>
+    <UnitTestResult executionId="c4218152-d4d2-454a-8358-cfc901076381" testId="7796b712-fe60-468f-2104-8ee6b2a50fd9" testName="LandingOnGoTest1" computerName="IWS-W7HYBOJZRNW" duration="00:00:00.0001750" startTime="2017-08-10T11:28:53.6124507-04:00" endTime="2017-08-10T11:28:53.6144509-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4218152-d4d2-454a-8358-cfc901076381">
+    </UnitTestResult>
+    <UnitTestResult executionId="4ae43424-b682-4ffe-b1ac-c18c14fc046a" testId="7a5d6771-74fe-3149-0ccd-32414e211fcf" testName="GamePlayerTest3" computerName="IWS-W7HYBOJZRNW" duration="00:00:00.0002354" startTime="2017-08-10T11:28:53.6184513-04:00" endTime="2017-08-10T11:28:53.6204515-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ae43424-b682-4ffe-b1ac-c18c14fc046a">
+    </UnitTestResult>
+    <UnitTestResult executionId="5c377792-e5d1-4837-b6d3-6b7655dc4afd" testId="7f40909b-f243-42ff-71ac-e07d8c2cc9fb" testName="GamePlayerTest2" computerName="IWS-W7HYBOJZRNW" duration="00:00:00.0001626" startTime="2017-08-10T11:28:53.6244519-04:00" endTime="2017-08-10T11:28:53.6264521-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c377792-e5d1-4837-b6d3-6b7655dc4afd">
+    </UnitTestResult>
+    <UnitTestResult executionId="b9db80c2-1ae5-48f5-96e9-95add3d00b10" testId="881e6fcc-8424-f9ba-9bef-cb075e569126" testName="GamePlayerTest1" computerName="IWS-W7HYBOJZRNW" duration="00:00:00.0001258" startTime="2017-08-10T11:28:53.6304525-04:00" endTime="2017-08-10T11:28:53.6324527-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9db80c2-1ae5-48f5-96e9-95add3d00b10">
+    </UnitTestResult>
+    <UnitTestResult executionId="55d605d4-7494-47ad-bf0a-42f09b397663" testId="9752f9ac-e914-3983-36b8-e1735950fad7" testName="GameRoundTest2" computerName="IWS-W7HYBOJZRNW" duration="00:00:00.0002598" startTime="2017-08-10T11:28:53.6374532-04:00" endTime="2017-08-10T11:28:53.6394534-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55d605d4-7494-47ad-bf0a-42f09b397663">
+    </UnitTestResult>
+    <UnitTestResult executionId="7b8ab493-2a97-4195-b74a-80c6208df99b" testId="b6daf6a3-b00b-158c-66e8-48d5a7a10408" testName="GameRoundTest1" computerName="IWS-W7HYBOJZRNW" duration="00:00:00.0002414" startTime="2017-08-10T11:28:53.6434538-04:00" endTime="2017-08-10T11:28:53.6454540-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b8ab493-2a97-4195-b74a-80c6208df99b">
+    </UnitTestResult>
+    <UnitTestResult executionId="a0799e1f-c580-4ca6-8b1b-03ee881db63d" testId="beb7dd20-1bda-12bc-d656-5e9f8f962b06" testName="PlayerMovementTest1" computerName="IWS-W7HYBOJZRNW" duration="00:00:00.0001596" startTime="2017-08-10T11:28:53.6494544-04:00" endTime="2017-08-10T11:28:53.6514546-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0799e1f-c580-4ca6-8b1b-03ee881db63d">
+    </UnitTestResult>
+    <UnitTestResult executionId="b1592bab-a4d6-442c-bdba-6216c6f4059c" testId="dabdf125-28d9-38b0-776e-916c4541cb98" testName="GameRoundTest4" computerName="IWS-W7HYBOJZRNW" duration="00:00:00.0002010" startTime="2017-08-10T11:28:53.6564551-04:00" endTime="2017-08-10T11:28:53.6574552-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1592bab-a4d6-442c-bdba-6216c6f4059c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

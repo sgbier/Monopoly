@@ -1,0 +1,7 @@
+C:\dotNet\Monopoly\Monopoly\MonopolyTest\obj\Debug\MonopolyTest.csprojResolveAssemblyReference.cache
+C:\dotNet\Monopoly\Monopoly\MonopolyTest\bin\Debug\MonopolyTest.dll
+C:\dotNet\Monopoly\Monopoly\MonopolyTest\bin\Debug\MonopolyTest.pdb
+C:\dotNet\Monopoly\Monopoly\MonopolyTest\bin\Debug\Monopoly.exe
+C:\dotNet\Monopoly\Monopoly\MonopolyTest\bin\Debug\Monopoly.pdb
+C:\dotNet\Monopoly\Monopoly\MonopolyTest\obj\Debug\MonopolyTest.dll
+C:\dotNet\Monopoly\Monopoly\MonopolyTest\obj\Debug\MonopolyTest.pdb

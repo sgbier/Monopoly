@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b60117f2-7836-439c-9bfa-0dfd33cc8ff9" name="sgbier@IWS-W7HYBOJZRNW 2017-08-10 11:33:51" runUser="INTERNAL\sgbier" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4020f19f-e6bb-483b-9794-4586090393e2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\dotNet\Monopoly\Monopoly\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="sgbier_IWS-W7HYBOJZRNW 2017-08-10 11_33_51">
+      <DeploymentItem filename="C:\dotNet\Monopoly\Monopoly\Monopoly\bin\Debug\Monopoly.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-08-10T11:33:51.7942659-04:00" queuing="2017-08-10T11:33:51.8402705-04:00" start="2017-08-10T11:33:51.8452710-04:00" finish="2017-08-10T11:33:52.0732938-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="PassingOverGoTest3" storage="c:\dotnet\monopoly\monopoly\monopolytest\bin\debug\monopolytest.dll" id="1e2175e2-b95b-933f-0759-415641bb98e7">
+      <Execution id="c25fe87b-079a-47b6-bca4-759cef41ccff" />
+      <TestMethod codeBase="C:/dotNet/Monopoly/Monopoly/MonopolyTest/bin/Debug/MonopolyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MonopolyTest.PassingOverGoTest, MonopolyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PassingOverGoTest3" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1e2175e2-b95b-933f-0759-415641bb98e7" executionId="c25fe87b-079a-47b6-bca4-759cef41ccff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c25fe87b-079a-47b6-bca4-759cef41ccff" testId="1e2175e2-b95b-933f-0759-415641bb98e7" testName="PassingOverGoTest3" computerName="IWS-W7HYBOJZRNW" duration="00:00:00.0127953" startTime="2017-08-10T11:33:51.8522717-04:00" endTime="2017-08-10T11:33:52.0582923-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c25fe87b-079a-47b6-bca4-759cef41ccff">
+    </UnitTestResult>
+  </Results>
+</TestRun>

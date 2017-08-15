@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1d73e3c1-83a6-4d3d-8f32-5f51c799f1db" name="sgbier@IWS-W7HYBOJZRNW 2017-08-10 11:24:50" runUser="INTERNAL\sgbier" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4020f19f-e6bb-483b-9794-4586090393e2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="sgbier_IWS-W7HYBOJZRNW 2017-08-10 11_24_50">
+      <DeploymentItem filename="C:\dotNet\Monopoly\Monopoly\Monopoly\bin\Debug\Monopoly.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-08-10T11:24:50.3451264-04:00" queuing="2017-08-10T11:24:50.9011820-04:00" start="2017-08-10T11:24:50.9301849-04:00" finish="2017-08-10T11:24:51.2572176-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LandingOnGoTest1" storage="c:\dotnet\monopoly\monopoly\monopolytest\bin\debug\monopolytest.dll" id="7796b712-fe60-468f-2104-8ee6b2a50fd9">
+      <Execution id="24b74597-4cf9-49c0-b3b9-bb71719c4cc1" />
+      <TestMethod codeBase="C:/dotNet/Monopoly/Monopoly/MonopolyTest/bin/Debug/MonopolyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MonopolyTest.LandingOnGoTest, MonopolyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LandingOnGoTest1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7796b712-fe60-468f-2104-8ee6b2a50fd9" executionId="24b74597-4cf9-49c0-b3b9-bb71719c4cc1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="24b74597-4cf9-49c0-b3b9-bb71719c4cc1" testId="7796b712-fe60-468f-2104-8ee6b2a50fd9" testName="LandingOnGoTest1" computerName="IWS-W7HYBOJZRNW" duration="00:00:00.0418341" startTime="2017-08-10T11:24:50.9441863-04:00" endTime="2017-08-10T11:24:51.2202139-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24b74597-4cf9-49c0-b3b9-bb71719c4cc1">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;200&gt;. Actual:&lt;0&gt;. Player did not receive $200 when landing on Go.</Message>
+          <StackTrace>   at MonopolyTest.LandingOnGoTest.LandingOnGoTest1() in C:\dotNet\Monopoly\Monopoly\MonopolyTest\LandingOnGoTest.cs:line 26
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

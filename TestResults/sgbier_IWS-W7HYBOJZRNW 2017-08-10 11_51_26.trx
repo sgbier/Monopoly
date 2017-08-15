@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="60a45419-71b7-4bab-ab7d-b87b528f31a3" name="sgbier@IWS-W7HYBOJZRNW 2017-08-10 11:51:26" runUser="INTERNAL\sgbier" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4020f19f-e6bb-483b-9794-4586090393e2">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\dotNet\Monopoly\Monopoly\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="sgbier_IWS-W7HYBOJZRNW 2017-08-10 11_51_26">
+      <DeploymentItem filename="C:\dotNet\Monopoly\Monopoly\Monopoly\bin\Debug\Monopoly.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-08-10T11:51:26.1646924-04:00" queuing="2017-08-10T11:51:27.8648624-04:00" start="2017-08-10T11:51:27.8678627-04:00" finish="2017-08-10T11:51:28.0918851-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LandingOnGoToJailTest2" storage="c:\dotnet\monopoly\monopoly\monopolytest\bin\debug\monopolytest.dll" id="9cd4c26f-846d-d4e3-5f7c-79a2e7c188ea">
+      <Execution id="3f4710a1-0198-48dd-a4f2-321cb64f6fef" />
+      <TestMethod codeBase="C:/dotNet/Monopoly/Monopoly/MonopolyTest/bin/Debug/MonopolyTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MonopolyTest.LandingOnGoToJailTest, MonopolyTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LandingOnGoToJailTest2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9cd4c26f-846d-d4e3-5f7c-79a2e7c188ea" executionId="3f4710a1-0198-48dd-a4f2-321cb64f6fef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3f4710a1-0198-48dd-a4f2-321cb64f6fef" testId="9cd4c26f-846d-d4e3-5f7c-79a2e7c188ea" testName="LandingOnGoToJailTest2" computerName="IWS-W7HYBOJZRNW" duration="00:00:00.0128889" startTime="2017-08-10T11:51:27.8768636-04:00" endTime="2017-08-10T11:51:28.0788838-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3f4710a1-0198-48dd-a4f2-321cb64f6fef">
+    </UnitTestResult>
+  </Results>
+</TestRun>
